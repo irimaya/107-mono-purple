@@ -4,6 +4,10 @@ header {
 }
 
 /* Navbar */
+#navbar {
+  padding-top: 30px;
+}
+
 #navbar .logo {
   float: none;
   text-align: center;
@@ -11,7 +15,6 @@ header {
 
 #navbar ul {
   float: none;
-  padding-top: 20px;
 }
 
 #navbar ul li {
@@ -31,7 +34,6 @@ header {
 
 .showcase-img img {
   width: 80%;
-  margin: auto 0;
 }
 
 .showcase-text {
@@ -43,15 +45,16 @@ header {
 
 /* About */
 #about {
-  padding: 60px 20px;
+  padding: 60px 0;
   text-align: center;
 }
 
 .about-title {
   float: none;
   width: 100%;
-  padding-top: 0;
+  padding-top: 0px;
 }
+
 
 .about-description {
   float: none;
@@ -67,7 +70,6 @@ header {
 .contact-form {
   float: none;
   width: 100%;
-  padding: 20px;
 }
 
 .contact-title {
